@@ -2,8 +2,8 @@
    "ASUSWalls" : {
       "color" : {
          "a" : 0.58823531866073608,
-         "b" : 1,
-         "g" : 1,
+         "b" : 0.99998998641967773,
+         "g" : 0.99998998641967773,
          "r" : 1
       },
       "enabled" : false
@@ -22,7 +22,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1,
+               "FOV" : 0.87999999523162842,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -85,7 +85,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1,
+               "FOV" : 0.87999999523162842,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -400,7 +400,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 1,
+               "FOV" : 0.87999999523162842,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -680,7 +680,7 @@
       "type" : 0
    },
    "Autoblock" : {
-      "enabled" : true,
+      "enabled" : false,
       "key" : 20
    },
    "BHop" : {
@@ -1054,6 +1054,10 @@
       "enabled" : false,
       "value" : 5
    },
+   "JumpThrow" : {
+      "enabled" : false,
+      "key" : "t"
+   },
    "NameStealer" : {
       "enabled" : false,
       "team" : 1
@@ -1079,7 +1083,7 @@
    },
    "Radar" : {
       "InGame" : {
-         "enabled" : true
+         "enabled" : false
       },
       "allies" : false,
       "ally_color" : {
@@ -1119,7 +1123,7 @@
          "r" : 0.25098040699958801
       },
       "enabled" : false,
-      "enemies" : true,
+      "enemies" : false,
       "enemy_color" : {
          "a" : 1,
          "b" : 0.12549020349979401,
@@ -1163,7 +1167,7 @@
       "showOnlyWhenShooting" : true
    },
    "Resolver" : {
-      "resolve_all" : true
+      "resolve_all" : false
    },
    "ScreenshotCleaner" : {
       "enabled" : false
@@ -1335,7 +1339,7 @@
          "WEAPON_M4A1_SILENCER" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "WEAPON_M4A1_SILENCER",
-            "PaintKit" : 497,
+            "PaintKit" : 321,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.004999999888241291
@@ -1429,7 +1433,7 @@
          "stomach" : true,
          "walls" : false
       },
-      "enabled" : true,
+      "enabled" : false,
       "key" : "ALT"
    },
    "UI" : {
@@ -1441,10 +1445,10 @@
          }
       },
       "bodyColor" : {
-         "a" : 1,
-         "b" : 0.094116717576980591,
-         "g" : 0.094116717576980591,
-         "r" : 0.094117656350135803
+         "a" : 0.76884424686431885,
+         "b" : 0.14572864770889282,
+         "g" : 0.12904046475887299,
+         "r" : 0.021969147026538849
       },
       "fontColor" : {
          "a" : 1,
@@ -1454,9 +1458,9 @@
       },
       "mainColor" : {
          "a" : 0.84422111511230469,
-         "b" : 0.22110329568386078,
-         "g" : 0.22110551595687866,
-         "r" : 0.22110374271869659
+         "b" : 0.48743718862533569,
+         "g" : 0.31120041012763977,
+         "r" : 0.1714603453874588
       }
    },
    "View" : {
