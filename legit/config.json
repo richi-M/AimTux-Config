@@ -91,7 +91,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 0.80000001192092896,
+               "FOV" : 1.2000000476837158,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -132,8 +132,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "AmountX" : 1.3970000743865967,
-               "AmountY" : 1.7410000562667847,
+               "AmountX" : 1.6840001344680786,
+               "AmountY" : 1.5920001268386841,
                "Enabled" : true
             },
             "Silent" : false,
@@ -141,10 +141,10 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.58600002527236938,
+               "Amount" : 0.52600002288818359,
                "Enabled" : true,
                "Salting" : {
-                  "Enabled" : true,
+                  "Enabled" : false,
                   "Multiplier" : 0.071000002324581146
                },
                "Type" : 0
@@ -229,7 +229,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 2.880000114440918,
+               "FOV" : 1.5,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -287,7 +287,7 @@
                },
                "Type" : 2
             },
-            "TargetBone" : 6
+            "TargetBone" : 5
          },
          "weapon_bizon" : {
             "AimKey" : "MOUSE3",
@@ -2211,7 +2211,7 @@
                "Enabled" : true
             },
             "Smooth" : {
-               "Amount" : 0.68300002813339233,
+               "Amount" : 0.72800004482269287,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
@@ -2477,7 +2477,7 @@
       "animation_speed" : 2000,
       "enabled" : true,
       "type" : 0,
-      "value" : "Bhop"
+      "value" : "xfce4"
    },
    "DisablePostProcessing" : {
       "enabled" : true
@@ -2493,7 +2493,7 @@
          "type" : 0
       },
       "Boxes" : {
-         "enabled" : true,
+         "enabled" : false,
          "type" : 0
       },
       "BulletTracers" : {
@@ -2523,7 +2523,7 @@
          "hp_ally_color" : false,
          "hp_ally_visible_color" : false,
          "hp_enemy_color" : false,
-         "hp_enemy_visible_color" : false,
+         "hp_enemy_visible_color" : true,
          "hp_localplayer_color" : false,
          "localplayer_color" : {
             "a" : 1,
@@ -2577,10 +2577,10 @@
          "hostages" : false,
          "legit" : true,
          "localplayer" : false,
-         "smoke_check" : false,
-         "throwables" : false,
+         "smoke_check" : true,
+         "throwables" : true,
          "visibility_check" : true,
-         "weapons" : false
+         "weapons" : true
       },
       "Glow" : {
          "ally_color" : {
@@ -2980,7 +2980,7 @@
       "skinsCT" : {
          "ct_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "sporty_gloves",
+            "ItemDefinitionIndex" : "ct_gloves",
             "PaintKit" : 10006,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -3036,7 +3036,7 @@
          },
          "t_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "sporty_gloves",
+            "ItemDefinitionIndex" : "t_gloves",
             "PaintKit" : 10006,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -3045,7 +3045,7 @@
          "weapon_ak47" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 44,
+            "PaintKit" : 474,
             "Seed" : 661,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3061,7 +3061,7 @@
          "weapon_awp" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 174,
+            "PaintKit" : 279,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3085,7 +3085,7 @@
          "weapon_deagle" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 12,
+            "PaintKit" : 351,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3132,7 +3132,7 @@
          },
          "weapon_knife" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "weapon_knife_karambit",
+            "ItemDefinitionIndex" : "weapon_knife_bayonet",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -3141,7 +3141,7 @@
          "weapon_knife_bayonet" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 417,
+            "PaintKit" : 196,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3181,7 +3181,7 @@
          "weapon_knife_m9_bayonet" : {
             "CustomName" : "HEIL",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 44,
+            "PaintKit" : 59,
             "Seed" : 88,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3204,7 +3204,7 @@
          },
          "weapon_knife_t" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "weapon_knife_karambit",
+            "ItemDefinitionIndex" : "weapon_knife_bayonet",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -3229,7 +3229,7 @@
          "weapon_m4a1" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "DEFAULT",
-            "PaintKit" : 309,
+            "PaintKit" : 255,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.00050000002374872565
@@ -3406,7 +3406,7 @@
          },
          "t_gloves" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "sporty_gloves",
+            "ItemDefinitionIndex" : "t_gloves",
             "PaintKit" : 10006,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -3550,7 +3550,7 @@
          },
          "weapon_knife_t" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "weapon_knife_karambit",
+            "ItemDefinitionIndex" : "weapon_knife_bayonet",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
